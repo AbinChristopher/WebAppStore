@@ -65,10 +65,10 @@ function HomePage() {
             </div>
 
             <div className="text-center">
-                <a href="/customers" className="btn btn-outline-primary mx-2 mb-2">Manage Customers</a>
-                <a href="/store" className="btn btn-outline-secondary mx-2 mb-2">Store Overview</a>
-                <a href="/sales" className="btn btn-outline-success mx-2 mb-2">Sales Dashboard</a>
-                <a href="/products" className="btn btn-outline-info mx-2 mb-2">Product List</a>
+                <Link to="/customers" className="btn btn-outline-primary mx-2 mb-2">Manage Customers</Link>
+                <Link to="/store" className="btn btn-outline-secondary mx-2 mb-2">Store Overview</Link>
+                <Link to="/sales" className="btn btn-outline-success mx-2 mb-2">Sales Dashboard</Link>
+                <Link to="/products" className="btn btn-outline-info mx-2 mb-2">Product List</Link>
             </div>
         </div>
     );

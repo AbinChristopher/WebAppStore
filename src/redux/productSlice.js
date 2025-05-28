@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 export const fetchProducts = createAsyncThunk('products/fetchProducts', async () => {
-    const response = await axios.get('https://localhost:7113/api/products');
+    const response = await axios.get('https://storeappv1-fhgfapfcdka6fqcd.australiaeast-01.azurewebsites.net/api/products');
     return response.data;
 });
 
